@@ -56,7 +56,7 @@ function Blog() {
                                         Explore the emerging trends shaping the SaaS industry and how businesses can leverage these innovations for growth.
                                     </p>
                                     <div className="blogBtn">
-                                        <a href="">Read More</a>
+                                        <a href="/">Read More</a>
                                     </div>
                                 </div>
                                     
@@ -79,7 +79,7 @@ function Blog() {
                                             An in-depth look at how cloud marketplaces are transforming the way businesses access and distribute technology solutions.
                                         </p>
                                         <div className="blogBtn">
-                                            <a href="">Read More</a>
+                                            <a href="/">Read More</a>
                                         </div>
                                     </div>
 
@@ -103,7 +103,7 @@ function Blog() {
                                             Learn how customized, white-labeled marketplaces empower brands to deliver personalized technology solutions and strengthen their identity.
                                         </p>
                                         <div className="blogBtn">
-                                            <a href="">Read More</a>
+                                            <a href="/">Read More</a>
                                         </div>
                                     </div>
 
@@ -125,7 +125,7 @@ function Blog() {
                                         Identify the common obstacles in tech distribution and actionable strategies to address them effectively.
                                     </p>
                                     <div className="blogBtn">
-                                        <a href="">Read More</a>
+                                        <a href="/">Read More</a>
                                     </div>
                                 </div>
  

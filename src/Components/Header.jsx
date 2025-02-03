@@ -48,13 +48,13 @@ function Header() {
         </div>
       </div>
     </header>
-    <div class={`contactSlide ${isVisible ? "show": ""}`}>
-      <div class="slideContain">
-        <div class="clseMenu" onClick={handleToggle}>
+    <div className={`contactSlide ${isVisible ? "show": ""}`}>
+      <div className="slideContain">
+        <div className="clseMenu" onClick={handleToggle}>
           <span></span>
           <span></span>
         </div>
-        <div class="cntInfBlk">
+        <div className="cntInfBlk">
           <h4  data-aos="fade-up"
           data-aos-duration="1000">Corporate Office</h4>
           <ul data-aos="fade-in"
@@ -70,11 +70,11 @@ function Header() {
               <a href="+971526214499">+971 52621 4499</a>
               </li>
               <li><img src="./assets/icon/mail.png" alt=""/>
-                <a href="mailto:info@dinsas.com " class="mail">info@dinsas.com </a>
+                <a href="mailto:info@dinsas.com " className="mail">info@dinsas.com </a>
                 </li>
           </ul>
         </div>
-        <div class="cntInfBlk">
+        <div className="cntInfBlk">
           <h4  data-aos="fade-up"
           data-aos-duration="1000">Corporate Office - India</h4>
           <ul data-aos="fade-in"
@@ -86,14 +86,14 @@ function Header() {
             </p>
             </li>
             <li><img src="./assets/icon/call.jpg" alt=""/>
-              <a href="tel:+971600555009" class="mail">+91 8848806212</a>
+              <a href="tel:+971600555009" className="mail">+91 8848806212</a>
               </li>
               <li><img src="./assets/icon/mail.png" alt=""/>
-                <a href="mailto:india@dinsas.com " class="mail">india@dinsas.com </a>
+                <a href="mailto:india@dinsas.com " className="mail">india@dinsas.com </a>
                 </li>
           </ul>
         </div>
-        <div class="cntInfBlk">
+        <div className="cntInfBlk">
           <h4  data-aos="fade-up"
           data-aos-duration="1000">Corporate Office - Oman</h4>
           <ul data-aos="fade-in"
@@ -104,20 +104,20 @@ function Header() {
             </p>
             </li>
             <li><img src="./assets/icon/call.jpg" alt=""/>
-              <a href="tel:+968 97197105" class="mail">+968 97197105
+              <a href="tel:+968 97197105" className="mail">+968 97197105
               </a>
               </li>
               <li><img src="./assets/icon/mail.png" alt=""/>
-                <a href="mailto:india@dinsas.com " class="mail">india@dinsas.com </a>
+                <a href="mailto:india@dinsas.com " className="mail">india@dinsas.com </a>
                 </li>
           </ul>
         </div>
-        <div class="ftrSocial slideSocial">
+        <div className="ftrSocial slideSocial">
           <ul>
-            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="/"><i className="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="/"><i className="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="/"><i className="fa-brands fa-instagram"></i></a></li>
+            <li><a href="/"><i className="fa-brands fa-linkedin-in"></i></a></li>
           </ul>
         </div>
       </div>

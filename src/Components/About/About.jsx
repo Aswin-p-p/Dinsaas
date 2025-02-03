@@ -4,14 +4,14 @@ function About() {
   return (
     <>
         <main className="msDin">
-      <div class="pageHeader companyHd">
-        <div class="container">
-          <div class="breadCrumb" data-aos="fade"
+      <div className="pageHeader companyHd">
+        <div className="container">
+          <div className="breadCrumb" data-aos="fade"
           data-aos-duration="1000">
             <a href="index.html">Home</a> <span></span>
-            <a href="company.html" class="activePg">About</a>
+            <a href="company.html" className="activePg">About</a>
           </div>
-          <div class="pgHeadCont"data-aos="fade-up"
+          <div className="pgHeadCont"data-aos="fade-up"
           data-aos-duration="1000">
             <h1>
               Bridging Technology 
@@ -21,7 +21,7 @@ function About() {
         </div>
       </div>
      <section className="dinAbtSec">
-      <div class="container">
+      <div className="container">
         <div className="row">
           <div className="col-md-6">
             <div className="dinAbtInImgBlk">
